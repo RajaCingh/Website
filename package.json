@@ -1,5 +1,4 @@
 {
-  "homepage": "https://rajacingh.github.io/website",
   "name": "raja-singh-portfolio",
   "version": "1.0.0",
   "private": true,
@@ -16,8 +15,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
