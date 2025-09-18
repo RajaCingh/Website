@@ -50,6 +50,7 @@ const Header = ({ onNavigate }) => {
             onClick={() => goTo('hero')}
           >
             <img src="./favicon.png" alt="Raja Singh" className="logo-image" />
+            <span className="logo-text">Raja Singh</span>
           </motion.div>
 
           <nav className={`nav ${isMobileMenuOpen ? 'nav-open' : ''}`}>
