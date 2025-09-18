@@ -195,13 +195,17 @@
 }
 
 .form-input::placeholder {
-  color: var(--text-light);
+  color: #000;
 }
 
 .form-textarea {
   resize: vertical;
   min-height: 120px;
   font-family: inherit;
+  color: #000;
+}
+
+.form-textarea::placeholder {
   color: #000;
 }
 
