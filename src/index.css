@@ -46,8 +46,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.6;
   color: var(--text-primary);
+  /* Subtle, attractive light-theme gradient background */
   background-color: var(--bg-primary);
+  background: radial-gradient(1200px 800px at 10% 10%, #e0f2fe 0%, #f8fafc 40%, #ffffff 100%),
+              linear-gradient(135deg, #eef2ff 0%, #f8fafc 60%, #e0f2fe 100%);
+  background-attachment: fixed;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark theme background variant */
+html[data-theme="dark"] body,
+body[data-theme="dark"] {
+  background-color: var(--bg-primary);
+  background: radial-gradient(1200px 800px at 15% 10%, #0b1220 0%, #0f172a 50%, #020617 100%),
+              linear-gradient(135deg, #0b1220 0%, #0f172a 60%, #020617 100%);
+  background-attachment: fixed;
 }
 
 /* Ensure base text uses theme-aware colors */
