@@ -113,7 +113,7 @@ const Hero = () => {
             <div className="image-container">
               <div className="profile-image">
                 <img 
-                  src="/profile.jpg" 
+                  src={`${process.env.PUBLIC_URL}/profile.jpg`} 
                   alt="Raja Singh - .NET Developer"
                   className="profile-photo"
                 />

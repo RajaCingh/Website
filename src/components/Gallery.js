@@ -5,9 +5,9 @@ import './Gallery.css';
 
 const images = [
   // Add or replace with your own image paths in public folder
-  '/profile.jpg'
-  //'/favicon.png'
-  // Example: '/gallery/photo1.jpg', '/gallery/photo2.jpg'
+  `${process.env.PUBLIC_URL}/profile.jpg`
+  //`${process.env.PUBLIC_URL}/favicon.png`
+  // Example: `${process.env.PUBLIC_URL}/gallery/photo1.jpg`
 ];
 
 const Gallery = () => {
