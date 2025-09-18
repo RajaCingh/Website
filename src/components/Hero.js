@@ -61,14 +61,14 @@ const Hero = () => {
               className="hero-title"
               variants={itemVariants}
             >
-              Hi, I'm <span className="highlight">Raja Singh</span>
+              Hi I am <span className="highlight">Raja Singh</span>
             </motion.h1>
             
             <motion.h2 
               className="hero-subtitle"
               variants={itemVariants}
             >
-              .NET Developer & Software Engineer
+              Developer
             </motion.h2>
             
             <motion.p 
